@@ -1,0 +1,655 @@
+{
+    "db-config": {
+        "sd_37WA2UvVJTY6WRxJ": {
+            "id": "sd_37WA2UvVJTY6WRxJ",
+            "type": "db-config",
+            "erdPath": "entity1",
+            "viewType": "server",
+            "nodeType": "flow",
+            "dbOption": {
+                "type": "postgres",
+                "host": "localhost",
+                "port": 5432,
+                "username": "postgres",
+                "password": "David@1998",
+                "database": "david",
+                "schema": "public",
+                "uuidExtension": "",
+                "synchronize": false,
+                "name": "postgres_0"
+            },
+            "disabledb": false,
+            "selectedDB": "postgres",
+            "selectedOption": "postgres",
+            "dbCategory": "sql",
+            "category": "config",
+            "__ssdTypeInputs__": {
+                "mssql_host": {
+                    "type": "str",
+                    "value": "localhost"
+                },
+                "mssql_port": {
+                    "type": "num",
+                    "value": 1433
+                },
+                "mssql_username": {
+                    "type": "str",
+                    "value": "username"
+                },
+                "mssql_password": {
+                    "type": "str",
+                    "value": "password"
+                },
+                "mssql_database": {
+                    "type": "str",
+                    "value": "database"
+                },
+                "mssql_connectionTimeout": {
+                    "type": "num",
+                    "value": 15000
+                },
+                "mssql_requestTimeout": {
+                    "type": "num",
+                    "value": 15000
+                },
+                "mssql_synchronize": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mssql_options.instanceName": {
+                    "type": "str",
+                    "value": ""
+                },
+                "mssql_pool.max": {
+                    "type": "num",
+                    "value": 10
+                },
+                "mssql_pool.min": {
+                    "type": "num",
+                    "value": 1
+                },
+                "mssql_pool.idleTimeoutMillis": {
+                    "type": "num",
+                    "value": 30000
+                },
+                "mssql_options.cancelTimeout": {
+                    "type": "num",
+                    "value": 5000
+                },
+                "mssql_options.packetSize": {
+                    "type": "num",
+                    "value": 4096
+                },
+                "mssql_options.useUTC": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mssql_options.localAddress": {
+                    "type": "str",
+                    "value": ""
+                },
+                "mssql_options.readOnlyIntent": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mssql_options.encrypt": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_host": {
+                    "type": "str",
+                    "value": "localhost"
+                },
+                "mysql_port": {
+                    "type": "num",
+                    "value": 3306
+                },
+                "mysql_username": {
+                    "type": "str",
+                    "value": "username"
+                },
+                "mysql_password": {
+                    "type": "str",
+                    "value": "password"
+                },
+                "mysql_database": {
+                    "type": "str",
+                    "value": "database"
+                },
+                "mysql_synchronize": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_extra.connectionLimit": {
+                    "type": "num",
+                    "value": 10
+                },
+                "mysql_charset": {
+                    "type": "str",
+                    "value": "UTF8_GENERAL_CI"
+                },
+                "mysql_timezone": {
+                    "type": "str",
+                    "value": "local"
+                },
+                "mysql_connectTimout": {
+                    "type": "num",
+                    "value": 10000
+                },
+                "mysql_acquireTimeout": {
+                    "type": "num",
+                    "value": 10000
+                },
+                "mysql_insecureAuth": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_supportBigNumbers": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mysql_bigNumberStrings": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_dateStrings": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_debug": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_trace": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mysql_multipleStatements": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_flags": {
+                    "type": "str",
+                    "value": "flags"
+                },
+                "postgres_host": {
+                    "type": "str",
+                    "value": "localhost"
+                },
+                "postgres_port": {
+                    "type": "num",
+                    "value": 5432
+                },
+                "postgres_username": {
+                    "type": "str",
+                    "value": "postgres"
+                },
+                "postgres_password": {
+                    "type": "str",
+                    "value": "David@1998"
+                },
+                "postgres_database": {
+                    "type": "str",
+                    "value": "david"
+                },
+                "postgres_schema": {
+                    "type": "str",
+                    "value": "public"
+                },
+                "postgres_uuidExtension": {
+                    "type": "str",
+                    "value": ""
+                },
+                "postgres_synchronize": {
+                    "type": "bool",
+                    "value": false
+                }
+            },
+            "__n_excludedFromValidation__": {},
+            "users": {}
+        },
+        "sd_4pTaKppuDJ7ASm7R": {
+            "id": "sd_4pTaKppuDJ7ASm7R",
+            "type": "db-config",
+            "erdPath": "entity2",
+            "viewType": "server",
+            "nodeType": "flow",
+            "dbOption": {
+                "type": "mysql",
+                "host": "10.10.10.100",
+                "port": 3306,
+                "username": "root",
+                "password": "root",
+                "database": "dm_testing",
+                "synchronize": false,
+                "extra": {
+                    "connectionLimit": 10
+                },
+                "charset": "UTF8_GENERAL_CI",
+                "timezone": "local",
+                "connectTimout": 10000,
+                "acquireTimeout": 10000,
+                "insecureAuth": false,
+                "supportBigNumbers": true,
+                "bigNumberStrings": false,
+                "dateStrings": false,
+                "debug": false,
+                "trace": true,
+                "multipleStatements": false,
+                "flags": "flags",
+                "name": "mysql_0"
+            },
+            "disabledb": true,
+            "selectedDB": "mysql",
+            "selectedOption": "mysql",
+            "dbCategory": "sql",
+            "category": "config",
+            "__ssdTypeInputs__": {
+                "mssql_host": {
+                    "type": "str",
+                    "value": "localhost"
+                },
+                "mssql_port": {
+                    "type": "num",
+                    "value": 1433
+                },
+                "mssql_username": {
+                    "type": "str",
+                    "value": "username"
+                },
+                "mssql_password": {
+                    "type": "str",
+                    "value": "password"
+                },
+                "mssql_database": {
+                    "type": "str",
+                    "value": "database"
+                },
+                "mssql_connectionTimeout": {
+                    "type": "num",
+                    "value": 15000
+                },
+                "mssql_requestTimeout": {
+                    "type": "num",
+                    "value": 15000
+                },
+                "mssql_synchronize": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mssql_options.instanceName": {
+                    "type": "str",
+                    "value": ""
+                },
+                "mssql_pool.max": {
+                    "type": "num",
+                    "value": 10
+                },
+                "mssql_pool.min": {
+                    "type": "num",
+                    "value": 1
+                },
+                "mssql_pool.idleTimeoutMillis": {
+                    "type": "num",
+                    "value": 30000
+                },
+                "mssql_options.cancelTimeout": {
+                    "type": "num",
+                    "value": 5000
+                },
+                "mssql_options.packetSize": {
+                    "type": "num",
+                    "value": 4096
+                },
+                "mssql_options.useUTC": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mssql_options.localAddress": {
+                    "type": "str",
+                    "value": ""
+                },
+                "mssql_options.readOnlyIntent": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mssql_options.encrypt": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_host": {
+                    "type": "str",
+                    "value": "10.10.10.100"
+                },
+                "mysql_port": {
+                    "type": "num",
+                    "value": 3306
+                },
+                "mysql_username": {
+                    "type": "str",
+                    "value": "root"
+                },
+                "mysql_password": {
+                    "type": "str",
+                    "value": "root"
+                },
+                "mysql_database": {
+                    "type": "str",
+                    "value": "dm_testing"
+                },
+                "mysql_synchronize": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_extra.connectionLimit": {
+                    "type": "num",
+                    "value": 10
+                },
+                "mysql_charset": {
+                    "type": "str",
+                    "value": "UTF8_GENERAL_CI"
+                },
+                "mysql_timezone": {
+                    "type": "str",
+                    "value": "local"
+                },
+                "mysql_connectTimout": {
+                    "type": "num",
+                    "value": 10000
+                },
+                "mysql_acquireTimeout": {
+                    "type": "num",
+                    "value": 10000
+                },
+                "mysql_insecureAuth": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_supportBigNumbers": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mysql_bigNumberStrings": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_dateStrings": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_debug": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_trace": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mysql_multipleStatements": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_flags": {
+                    "type": "str",
+                    "value": "flags"
+                },
+                "postgres_host": {
+                    "type": "str",
+                    "value": "localhost"
+                },
+                "postgres_port": {
+                    "type": "num",
+                    "value": 5432
+                },
+                "postgres_username": {
+                    "type": "str",
+                    "value": "username"
+                },
+                "postgres_password": {
+                    "type": "str",
+                    "value": "password"
+                },
+                "postgres_database": {
+                    "type": "str",
+                    "value": "database"
+                },
+                "postgres_schema": {
+                    "type": "str",
+                    "value": "public"
+                },
+                "postgres_uuidExtension": {
+                    "type": "str",
+                    "value": ""
+                },
+                "postgres_synchronize": {
+                    "type": "bool",
+                    "value": false
+                }
+            },
+            "__n_excludedFromValidation__": {},
+            "users": {}
+        },
+        "sd_IpvSZ11yFipmdK1x": {
+            "id": "sd_IpvSZ11yFipmdK1x",
+            "type": "db-config",
+            "erdPath": "entity3",
+            "viewType": "server",
+            "nodeType": "flow",
+            "dbOption": {
+                "type": "mssql",
+                "host": "10.10.67.208",
+                "port": 1433,
+                "username": "sql_user",
+                "password": "Summer00",
+                "database": "dm_testing",
+                "connectionTimeout": 15000,
+                "requestTimeout": 15000,
+                "synchronize": false,
+                "options": {
+                    "instanceName": "",
+                    "cancelTimeout": 5000,
+                    "packetSize": 4096,
+                    "useUTC": true,
+                    "localAddress": "",
+                    "readOnlyIntent": false,
+                    "encrypt": false
+                },
+                "pool": {
+                    "max": 10,
+                    "min": 1,
+                    "idleTimeoutMillis": 30000
+                },
+                "name": "mssql_0"
+            },
+            "disabledb": true,
+            "selectedDB": "mssql",
+            "selectedOption": "mssql",
+            "dbCategory": "sql",
+            "category": "config",
+            "__ssdTypeInputs__": {
+                "mssql_host": {
+                    "type": "str",
+                    "value": "10.10.67.208"
+                },
+                "mssql_port": {
+                    "type": "num",
+                    "value": 1433
+                },
+                "mssql_username": {
+                    "type": "str",
+                    "value": "sql_user"
+                },
+                "mssql_password": {
+                    "type": "str",
+                    "value": "Summer00"
+                },
+                "mssql_database": {
+                    "type": "str",
+                    "value": "dm_testing"
+                },
+                "mssql_connectionTimeout": {
+                    "type": "num",
+                    "value": 15000
+                },
+                "mssql_requestTimeout": {
+                    "type": "num",
+                    "value": 15000
+                },
+                "mssql_synchronize": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mssql_options.instanceName": {
+                    "type": "str",
+                    "value": ""
+                },
+                "mssql_pool.max": {
+                    "type": "num",
+                    "value": 10
+                },
+                "mssql_pool.min": {
+                    "type": "num",
+                    "value": 1
+                },
+                "mssql_pool.idleTimeoutMillis": {
+                    "type": "num",
+                    "value": 30000
+                },
+                "mssql_options.cancelTimeout": {
+                    "type": "num",
+                    "value": 5000
+                },
+                "mssql_options.packetSize": {
+                    "type": "num",
+                    "value": 4096
+                },
+                "mssql_options.useUTC": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mssql_options.localAddress": {
+                    "type": "str",
+                    "value": ""
+                },
+                "mssql_options.readOnlyIntent": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mssql_options.encrypt": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_host": {
+                    "type": "str",
+                    "value": "localhost"
+                },
+                "mysql_port": {
+                    "type": "num",
+                    "value": 3306
+                },
+                "mysql_username": {
+                    "type": "str",
+                    "value": "username"
+                },
+                "mysql_password": {
+                    "type": "str",
+                    "value": "password"
+                },
+                "mysql_database": {
+                    "type": "str",
+                    "value": "database"
+                },
+                "mysql_synchronize": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_extra.connectionLimit": {
+                    "type": "num",
+                    "value": 10
+                },
+                "mysql_charset": {
+                    "type": "str",
+                    "value": "UTF8_GENERAL_CI"
+                },
+                "mysql_timezone": {
+                    "type": "str",
+                    "value": "local"
+                },
+                "mysql_connectTimout": {
+                    "type": "num",
+                    "value": 10000
+                },
+                "mysql_acquireTimeout": {
+                    "type": "num",
+                    "value": 10000
+                },
+                "mysql_insecureAuth": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_supportBigNumbers": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mysql_bigNumberStrings": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_dateStrings": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_debug": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_trace": {
+                    "type": "bool",
+                    "value": true
+                },
+                "mysql_multipleStatements": {
+                    "type": "bool",
+                    "value": false
+                },
+                "mysql_flags": {
+                    "type": "str",
+                    "value": "flags"
+                },
+                "postgres_host": {
+                    "type": "str",
+                    "value": "localhost"
+                },
+                "postgres_port": {
+                    "type": "num",
+                    "value": 5432
+                },
+                "postgres_username": {
+                    "type": "str",
+                    "value": "username"
+                },
+                "postgres_password": {
+                    "type": "str",
+                    "value": "password"
+                },
+                "postgres_database": {
+                    "type": "str",
+                    "value": "database"
+                },
+                "postgres_schema": {
+                    "type": "str",
+                    "value": "public"
+                },
+                "postgres_uuidExtension": {
+                    "type": "str",
+                    "value": ""
+                },
+                "postgres_synchronize": {
+                    "type": "bool",
+                    "value": false
+                }
+            },
+            "__n_excludedFromValidation__": {},
+            "users": {}
+        }
+    }
+}
